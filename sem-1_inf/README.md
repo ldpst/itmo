@@ -1,8 +1,8 @@
 # Информатика
 <img alt="ПСЖ - all what we wants!" src="https://github.com/ldpst/itmo/blob/main/.data/PSJ.gif" height=200 width=308></img><br>
 ### Содержание<br>
-* [Лабораторные](https://github.com/ldpst/itmo/tree/main/sem-1_inf/annotations)
-* [Аннотации](https://github.com/ldpst/itmo/tree/main/sem-1_inf/labs)
+* [Лабораторные](https://github.com/ldpst/itmo/tree/main/sem-1_inf/labs)
+* [Аннотации](https://github.com/ldpst/itmo/tree/main/sem-1_inf/annotations)
 ### Мои преподы
 * Лектор - Балакшин Павел Валерьевич📃📃📃<br>
 * Практик - Балакшин Павел Валерьевич📃📃📃<br>
