@@ -3,6 +3,78 @@ def parse_json(json: str):
     return string
 
 
+def parse_string(string: str):
+    if not string.startswith("\""):
+        return None
+    second_quote = string.find("\"", 1)
+    if second_quote == -1:
+        return None
+    return string[1:second_quote], string[second_quote + 1:]
+
+
+def parse_number(string: str):
+    num = ""
+    for i in string:
+        if i in "0123456789.Ee-+":
+            num += i
+        else:
+            break
+    if num.isnumeric():
+        return int(num), string[len(num):].strip()
+    else:
+        try:
+            return float(num), string[len(num):].strip()
+        except ValueError:
+            return None
+
+
+def parse_bool(string: str):
+    if string.startswith("true"):
+        return True, string[4:].strip()
+    if string.startswith("false"):
+        return False, string[5:].strip()
+
+
+def parse_null(string: str):
+    if string.startswith("null"):
+        return None, string[4:].strip()
+
+
+def parse_comma(string: str):
+    if not string.startswith(','):
+        return None
+    return ",", string[1:].strip()
+
+
+def parse_colon(string: str):
+    if not string.startswith(":"):
+        return None
+    else:
+        return ":", string[2:].strip()
+
+
+def parse_array(string: str):
+    if not string.startswith('['):
+        return None
+    parsed_comma_values = parse_comma_values(string[1:].strip())
+    if parsed_comma_values is None:
+        res, string = [], string[1:]
+    else:
+        res, string = parsed_comma_values
+    if not string.startswith(']'):
+        return None
+    return res, string[1:].strip()
+
+
+def parse_object(string: str):
+    if not string.startswith("{"):
+        return None
+    arr, string = parse_comma_keyvalues(string[1:].strip())
+    if not string.startswith("}"):
+        return None
+    return arr, string[1:].strip()
+            
+
 def parse_keyvalue(string: str):
     parsed_string = parse_string(string)
     if parsed_string is None:
@@ -14,6 +86,23 @@ def parse_keyvalue(string: str):
     if parsed_value is None:
         return None
     return (parsed_string[0], parsed_value[0]), parsed_value[1].strip()
+    
+
+def parse_comma_keyvalues(string: str):
+    res = {}
+    while True:
+        parsed_keyvalue = parse_keyvalue(string)
+        if parsed_keyvalue is None:
+            break
+        key, val = parsed_keyvalue[0]
+        res[key] = val
+        string = parsed_keyvalue[1]
+
+        parsed_comma = parse_comma(string)
+        if parsed_comma is None:
+            break
+        string = parsed_comma[1].strip()
+    return res, string.strip()
 
 
 def parse_value(string: str):
@@ -43,24 +132,6 @@ def parse_value(string: str):
         return parsed_obect[0], parsed_obect[1].strip()
 
 
-def parse_bool(string: str):
-    if string.startswith("true"):
-        return True, string[4:].strip()
-    if string.startswith("false"):
-        return False, string[5:].strip()
-
-
-def parse_null(string: str):
-    if string.startswith("null"):
-        return None, string[4:].strip()
-
-
-def parse_comma(string: str):
-    if not string.startswith(','):
-        return None
-    return ",", string[1:].strip()
-
-
 def parse_comma_values(string: str):
     res = []
     while True:
@@ -75,74 +146,3 @@ def parse_comma_values(string: str):
             break
         string = parsed_comma[1]
     return res, string.strip()
-
-
-def parse_array(string: str):
-    if not string.startswith('['):
-        return None
-    parsed_comma_values = parse_comma_values(string[1:].strip())
-    if parsed_comma_values is None:
-        res, string = [], string[1:]
-    else:
-        res, string = parsed_comma_values
-    if not string.startswith(']'):
-        return None
-    return res, string[1:].strip()
-
-
-def parse_string(string: str):
-    if not string.startswith("\""):
-        return None
-    second_quote = string.find("\"", 1)
-    if second_quote == -1:
-        return None
-    return string[1:second_quote], string[second_quote + 1:]
-
-
-def parse_colon(string: str):
-    if not string.startswith(":"):
-        return None
-    else:
-        return ":", string[2:].strip()
-
-
-def parse_comma_keyvalues(string: str):
-    res = {}
-    while True:
-        parsed_keyvalue = parse_keyvalue(string)
-        if parsed_keyvalue is None:
-            break
-        key, val = parsed_keyvalue[0]
-        res[key] = val
-        string = parsed_keyvalue[1]
-
-        parsed_comma = parse_comma(string)
-        if parsed_comma is None:
-            break
-        string = parsed_comma[1].strip()
-    return res, string.strip()
-
-
-def parse_object(string: str):
-    if not string.startswith("{"):
-        return None
-    arr, string = parse_comma_keyvalues(string[1:].strip())
-    if not string.startswith("}"):
-        return None
-    return arr, string[1:].strip()
-
-
-def parse_number(string: str):
-    num = ""
-    for i in string:
-        if i in "0123456789.Ee-+":
-            num += i
-        else:
-            break
-    if num.isnumeric():
-        return int(num), string[len(num):].strip()
-    else:
-        try:
-            return float(num), string[len(num):].strip()
-        except ValueError:
-            return None
