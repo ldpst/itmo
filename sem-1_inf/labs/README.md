@@ -3,5 +3,5 @@
 ### Содержание
 | [ЛР1](https://github.com/ldpst/itmo/tree/main/sem-1_inf/labs/lab1) | [ЛР2](https://github.com/ldpst/itmo/tree/main/sem-1_inf/labs/lab2) | [ЛР3](https://github.com/ldpst/itmo/tree/main/sem-1_inf/labs/lab3) | ЛР4 | ЛР5 | ЛР6 | ЛР7 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|✅|✅|✅|🕐|🕐|🕐|🕐|
+|✅|✅|✅|✅|🕐|🕐|🕐|
 
