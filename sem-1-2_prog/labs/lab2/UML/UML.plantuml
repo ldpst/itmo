@@ -1,0 +1,89 @@
+@startuml
+
+skinparam linetype ortho
+
+class Absorb {
+  # applySelfDamage(Pokemon, double): void
+  # describe(): String
+}
+class Agility {
+  # applySelfEffects(Pokemon): void
+  # describe(): String
+}
+class Bulldoze {
+  # applyOppDamage(Pokemon, double): void
+  # describe(): String
+}
+class Confide {
+  # describe(): String
+  # applyOppEffects(Pokemon): void
+}
+class DamageMove
+class DoubleTeam {
+  # applySelfEffects(Pokemon): void
+  # describe(): String
+}
+class HealPulse {
+  # describe(): String
+  # applyOppEffects(Pokemon): void
+}
+class Latias
+class MegaDrain {
+  # describe(): String
+  # applySelfDamage(Pokemon, double): void
+}
+class MistBall {
+  # applyOppDamage(Pokemon, double): void
+}
+class Move
+class Palossand
+class PhysicalMove {
+  # calcAttDefFactor(Pokemon, Pokemon): double
+}
+class Pichu
+class Pikachu
+class Pokemon
+class Raichu
+class Sandygast
+class SludgeBomb {
+  # applyOppDamage(Pokemon, double): void
+  # describe(): String
+}
+class SpecialMove
+class StatusMove
+class Thunder {
+  # describe(): String
+  # applyOppDamage(Pokemon, double): void
+}
+class WildCharge {
+  # describe(): String
+  # applySelfDamage(Pokemon, double): void
+}
+class ZenHeadbutt {
+  # describe(): String
+  # applyOppDamage(Pokemon, double): void
+}
+
+Absorb        --^  SpecialMove  
+Agility       --^  StatusMove   
+Bulldoze      --^  PhysicalMove 
+Confide       --^  StatusMove   
+DamageMove    --^  Move         
+DoubleTeam    --^  StatusMove   
+HealPulse     --^  StatusMove   
+Latias        --^  Pokemon      
+MegaDrain     --^  SpecialMove  
+MistBall      --^  SpecialMove  
+Palossand     --^  Sandygast    
+PhysicalMove  --^  DamageMove   
+Pichu         --^  Pokemon      
+Pikachu       --^  Pichu        
+Raichu        --^  Pikachu      
+Sandygast     --^  Pokemon      
+SludgeBomb    --^  SpecialMove  
+SpecialMove   --^  DamageMove   
+StatusMove    --^  Move         
+Thunder       --^  SpecialMove  
+WildCharge    --^  PhysicalMove 
+ZenHeadbutt   --^  PhysicalMove 
+@enduml
