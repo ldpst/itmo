@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created by yFiles for HTML 2.6.0.4-->
+<graphml xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml.html/2.0/ygraphml.xsd " xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:demostyle2="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/2.0" xmlns:demostyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/1.0" xmlns:icon-style="http://www.yworks.com/yed-live/icon-style/1.0" xmlns:bpmn="http://www.yworks.com/xml/yfiles-bpmn/2.0" xmlns:demotablestyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoTableStyle/1.0" xmlns:uml="http://www.yworks.com/yFilesHTML/demos/UMLDemoStyle/1.0" xmlns:GraphvizNodeStyle="http://www.yworks.com/yFilesHTML/graphviz-node-style/1.0" xmlns:Vue2jsNodeStyle="http://www.yworks.com/demos/yfiles-vuejs-node-style/1.0" xmlns:Vue3jsNodeStyle="http://www.yworks.com/demos/yfiles-vue-node-style/3.0" xmlns:explorer-style="http://www.yworks.com/data-explorer/1.0" xmlns:y="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/3.0" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:yjs="http://www.yworks.com/xml/yfiles-for-html/2.0/xaml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<key id="d0" for="node" attr.type="int" attr.name="zOrder" y:attr.uri="http://www.yworks.com/xml/yfiles-z-order/1.0/zOrder"/>
+	<key id="d1" for="node" attr.type="boolean" attr.name="Expanded" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/Expanded">
+		<default>true</default>
+	</key>
+	<key id="d2" for="node" attr.type="string" attr.name="url"/>
+	<key id="d3" for="node" attr.type="string" attr.name="description"/>
+	<key id="d4" for="node" attr.name="NodeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeLabels"/>
+	<key id="d5" for="node" attr.name="NodeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeGeometry"/>
+	<key id="d6" for="all" attr.name="UserTags" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/UserTags"/>
+	<key id="d7" for="node" attr.name="NodeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeStyle"/>
+	<key id="d8" for="node" attr.name="NodeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/NodeViewState"/>
+	<key id="d9" for="edge" attr.type="string" attr.name="url"/>
+	<key id="d10" for="edge" attr.type="string" attr.name="description"/>
+	<key id="d11" for="edge" attr.name="EdgeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeLabels"/>
+	<key id="d12" for="edge" attr.name="EdgeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeGeometry"/>
+	<key id="d13" for="edge" attr.name="EdgeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeStyle"/>
+	<key id="d14" for="edge" attr.name="EdgeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/EdgeViewState"/>
+	<key id="d15" for="port" attr.name="PortLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLabels"/>
+	<key id="d16" for="port" attr.name="PortLocationParameter" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLocationParameter">
+		<default>
+			<x:Static Member="y:FreeNodePortLocationModel.NodeCenterAnchored"/>
+		</default>
+	</key>
+	<key id="d17" for="port" attr.name="PortStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortStyle">
+		<default>
+			<x:Static Member="y:VoidPortStyle.Instance"/>
+		</default>
+	</key>
+	<key id="d18" for="port" attr.name="PortViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/PortViewState"/>
+	<key id="d19" attr.name="SharedData" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/SharedData"/>
+	<data key="d19">
+		<y:SharedData>
+			<yjs:Font x:Key="1" fontSize="12"/>
+			<yjs:SolidColorFill x:Key="2" color="#FF0B7189"/>
+			<yjs:SolidColorFill x:Key="3" color="#FF0B7189"/>
+			<yjs:SolidColorFill x:Key="4" color="#FF9DC6D0"/>
+			<yjs:Stroke x:Key="5" fill="#FF0B7189" lineCap="SQUARE" thickness="2"/>
+			<yjs:PolylineEdgeStyle x:Key="6" stroke="#FF000082" smoothingLength="20" targetArrow="{y:GraphMLReference 7}" sourceArrow="{y:GraphMLReference 8}"/>
+			<yjs:Arrow x:Key="7" type="TRIANGLE" stroke="#FF000082" fill="#FF000082"/>
+			<yjs:Arrow x:Key="8" type="NONE" stroke="#FF000082" fill="#FF000082"/>
+		</y:SharedData>
+	</data>
+	<graph id="G" edgedefault="directed">
+		<data key="d6">
+			<y:Json>{"version":"2.0.0","origin":"yed-live","theme":{"name":"light","version":"1.0.0"},"bridge-style":"ARC_SCALED"}</y:Json>
+		</data>
+		<node id="n0">
+			<data key="d0">0</data>
+			<data key="d5">
+				<y:RectD X="1207" Y="-1150.75" Width="164" Height="124"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="Main" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[+ Main():]]></sys:String>
+									<sys:String><![CDATA[+ main(String[]): void]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+		</node>
+		<node id="n1">
+			<data key="d0">2</data>
+			<data key="d4">
+				<x:List>
+					<y:Label>
+						<y:Label.Text>story</y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:GroupNodeLabelModelParameter PlaceOnTab="false">
+								<y:GroupNodeLabelModelParameter.Model>
+									<y:GroupNodeLabelModel/>
+								</y:GroupNodeLabelModelParameter.Model>
+							</y:GroupNodeLabelModelParameter>
+						</y:Label.LayoutParameter>
+						<y:Label.Style>
+							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" wrapping="CHARACTER_ELLIPSIS" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="#FFEEEEEE"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="-563" Y="-1193.25" Width="1745.75" Height="2419.5"/>
+			</data>
+			<data key="d7">
+				<yjs:GroupNodeStyle tabWidth="30" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 2}" iconOffset="2" minimumContentAreaSize="0,0" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}" cssClass="y-group-node"/>
+			</data>
+			<graph id="n1:" edgedefault="directed">
+				<node id="n1::n0">
+					<data key="d0">2</data>
+					<data key="d4">
+						<x:List>
+							<y:Label>
+								<y:Label.Text>community</y:Label.Text>
+								<y:Label.LayoutParameter>
+									<y:GroupNodeLabelModelParameter PlaceOnTab="false">
+										<y:GroupNodeLabelModelParameter.Model>
+											<y:GroupNodeLabelModel/>
+										</y:GroupNodeLabelModelParameter.Model>
+									</y:GroupNodeLabelModelParameter>
+								</y:Label.LayoutParameter>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" wrapping="CHARACTER_ELLIPSIS" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="#FFEEEEEE"/>
+								</y:Label.Style>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d5">
+						<y:RectD X="-520" Y="-1150.75" Width="728.75" Height="781.75"/>
+					</data>
+					<data key="d7">
+						<yjs:GroupNodeStyle tabWidth="30" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 2}" iconOffset="2" minimumContentAreaSize="0,0" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}" cssClass="y-group-node"/>
+					</data>
+					<graph id="n1::n0:" edgedefault="directed">
+						<node id="n1::n0::n0">
+							<data key="d0">1</data>
+							<data key="d4">
+								<x:List>
+									<y:Label>
+										<y:Label.Text>debaters</y:Label.Text>
+										<y:Label.LayoutParameter>
+											<y:GroupNodeLabelModelParameter PlaceOnTab="false">
+												<y:GroupNodeLabelModelParameter.Model>
+													<y:GroupNodeLabelModel/>
+												</y:GroupNodeLabelModelParameter.Model>
+											</y:GroupNodeLabelModelParameter>
+										</y:Label.LayoutParameter>
+										<y:Label.Style>
+											<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" wrapping="CHARACTER_ELLIPSIS" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="#FFEEEEEE"/>
+										</y:Label.Style>
+									</y:Label>
+								</x:List>
+							</data>
+							<data key="d5">
+								<y:RectD X="-480.75" Y="-1111.5" Width="654.75" Height="434.5"/>
+							</data>
+							<data key="d7">
+								<yjs:GroupNodeStyle tabWidth="30" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 2}" iconOffset="2" minimumContentAreaSize="0,0" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}" cssClass="y-group-node"/>
+							</data>
+							<graph id="n1::n0::n0:" edgedefault="directed">
+								<node id="n1::n0::n0::n0">
+									<data key="d0">0</data>
+									<data key="d5">
+										<y:RectD X="-473.75" Y="-1045.5" Width="323" Height="332"/>
+									</data>
+									<data key="d7">
+										<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+											<uml:UMLNodeStyle.model>
+												<uml:UMLClassModel stereotype="" constraint="" className="Debaters" attributesOpen="true" operationsOpen="true">
+													<uml:UMLClassModel.attributes>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[- opinion: Statement]]></sys:String>
+															<sys:String><![CDATA[- opponents: List<Shorty>]]></sys:String>
+															<sys:String><![CDATA[- statementAim: Shorty]]></sys:String>
+															<sys:String><![CDATA[- statementManager: StatementManager]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.attributes>
+													<uml:UMLClassModel.operations>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[+ Debaters(List<Shorty>, Shorty):]]></sys:String>
+															<sys:String><![CDATA[+ Debaters(List<Shorty>):]]></sys:String>
+															<sys:String><![CDATA[+ Debaters():]]></sys:String>
+															<sys:String><![CDATA[+ addOpponent(Debaters): void]]></sys:String>
+															<sys:String><![CDATA[+ removeOpponent(Shorty): void]]></sys:String>
+															<sys:String><![CDATA[+ getOpponents(): List<Shorty>]]></sys:String>
+															<sys:String><![CDATA[+ getStatementManager(): StatementManager]]></sys:String>
+															<sys:String><![CDATA[+ getStatementAim(): Shorty]]></sys:String>
+															<sys:String><![CDATA[+ getOppinion(): String]]></sys:String>
+															<sys:String><![CDATA[+ setOpinion(Statement): void]]></sys:String>
+															<sys:String><![CDATA[- createManagers(): void]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.operations>
+												</uml:UMLClassModel>
+											</uml:UMLNodeStyle.model>
+										</uml:UMLNodeStyle>
+									</data>
+									<port name="p0">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.5,0"/>
+										</data>
+									</port>
+									<port name="p1">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9970059880239521"/>
+										</data>
+									</port>
+								</node>
+								<node id="n1::n0::n0::n1">
+									<data key="d0">0</data>
+									<data key="d5">
+										<y:RectD X="-127.25" Y="-1032.25" Width="255" Height="140"/>
+									</data>
+									<data key="d7">
+										<uml:UMLNodeStyle fill="#FF78AAC1" highlightFill="#FFA3F1BB">
+											<uml:UMLNodeStyle.model>
+												<uml:UMLClassModel stereotype="" constraint="" className="StatementManager" attributesOpen="true" operationsOpen="true">
+													<uml:UMLClassModel.attributes>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[- debaters: Debaters]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.attributes>
+													<uml:UMLClassModel.operations>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[+ StatementManager(Debaters):]]></sys:String>
+															<sys:String><![CDATA[+ statementAbout(Statement): void]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.operations>
+												</uml:UMLClassModel>
+											</uml:UMLNodeStyle.model>
+										</uml:UMLNodeStyle>
+									</data>
+									<data key="d8">
+										<y:ViewState>
+											<y:FolderNodeState x:Key="c|view" Layout="-127.25,-1032.25,255,140"/>
+										</y:ViewState>
+									</data>
+									<port name="p0">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.5,0"/>
+										</data>
+										<data key="d18">
+											<y:ViewState>
+												<y:Port x:Key="c|view"/>
+											</y:ViewState>
+										</data>
+									</port>
+									<port name="p1">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9929577464788732"/>
+										</data>
+										<data key="d18">
+											<y:ViewState>
+												<y:Port x:Key="c|view"/>
+											</y:ViewState>
+										</data>
+									</port>
+									<port name="p2">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9929577464788732"/>
+										</data>
+										<data key="d18">
+											<y:ViewState>
+												<y:Port x:Key="c|view"/>
+											</y:ViewState>
+										</data>
+									</port>
+								</node>
+							</graph>
+						</node>
+						<node id="n1::n0::n1">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="-448.75" Y="-653.25" Width="273" Height="268"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="Community" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- members: List<Shorty>]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ Community(List<Shorty>):]]></sys:String>
+													<sys:String><![CDATA[+ Community():]]></sys:String>
+													<sys:String><![CDATA[+ toString(): String]]></sys:String>
+													<sys:String><![CDATA[+ getCommaSeparatedNames(): String]]></sys:String>
+													<sys:String><![CDATA[+ add(List<Shorty>): void]]></sys:String>
+													<sys:String><![CDATA[+ add(Shorty): void]]></sys:String>
+													<sys:String><![CDATA[+ remove(Shorty): void]]></sys:String>
+													<sys:String><![CDATA[+ hashCode(): int]]></sys:String>
+													<sys:String><![CDATA[+ equals(Object): boolean]]></sys:String>
+													<sys:String><![CDATA[+ getMembers(): List<Shorty>]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<port name="p0">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.5,1"/>
+								</data>
+							</port>
+							<port name="p1">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.5,0.003703703703703709"/>
+								</data>
+							</port>
+						</node>
+						<node id="n1::n0::n2">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="-127.25" Y="-581.25" Width="232" Height="124"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF6D5A71" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="CommunityComparator" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object"/>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ CommunityComparator():]]></sys:String>
+													<sys:String><![CDATA[+ compare(Shorty, Shorty): int]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="-127.25,-581.25,232,124"/>
+								</y:ViewState>
+							</data>
+						</node>
+						<edge id="n1::n0::e0" source="n1::n0::n0::n0" target="n1::n0::n1" sourceport="p1" targetport="p1">
+							<data key="d13">
+								<y:GraphMLReference ResourceKey="6"/>
+							</data>
+						</edge>
+					</graph>
+				</node>
+				<node id="n1::n1">
+					<data key="d0">3</data>
+					<data key="d4">
+						<x:List>
+							<y:Label>
+								<y:Label.Text>constants</y:Label.Text>
+								<y:Label.LayoutParameter>
+									<y:GroupNodeLabelModelParameter PlaceOnTab="false">
+										<y:GroupNodeLabelModelParameter.Model>
+											<y:GroupNodeLabelModel/>
+										</y:GroupNodeLabelModelParameter.Model>
+									</y:GroupNodeLabelModelParameter>
+								</y:Label.LayoutParameter>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" wrapping="CHARACTER_ELLIPSIS" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="#FFEEEEEE"/>
+								</y:Label.Style>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d5">
+						<y:RectD X="255" Y="-1150.75" Width="760.75" Height="559.5"/>
+					</data>
+					<data key="d7">
+						<yjs:GroupNodeStyle tabWidth="30" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 2}" iconOffset="2" minimumContentAreaSize="0,0" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}" cssClass="y-group-node"/>
+					</data>
+					<graph id="n1::n1:" edgedefault="directed">
+						<node id="n1::n1::n0">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="282" Y="-1103.75" Width="183" Height="236"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FFE87C0A" highlightFill="#FFE87C0A">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="Enum Mood" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ GLAD:]]></sys:String>
+													<sys:String><![CDATA[+ HAPPY:]]></sys:String>
+													<sys:String><![CDATA[+ SAD:]]></sys:String>
+													<sys:String><![CDATA[+ ANGRY:]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ Mood():]]></sys:String>
+													<sys:String><![CDATA[+ emote(): String]]></sys:String>
+													<sys:String><![CDATA[+ valueOf(String): Mood]]></sys:String>
+													<sys:String><![CDATA[+ values(): Mood[]]]></sys:String>
+													<sys:String><![CDATA[+ toString(): String]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="282,-1103.75,183,236"/>
+								</y:ViewState>
+							</data>
+						</node>
+						<node id="n1::n1::n1">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="538.25" Y="-1103.75" Width="178" Height="236"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FFE87C0A" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="Enum Book" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ MOON:]]></sys:String>
+													<sys:String><![CDATA[+ SUN:]]></sys:String>
+													<sys:String><![CDATA[- description: String]]></sys:String>
+													<sys:String><![CDATA[+ PLANETS:]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- Book(String):]]></sys:String>
+													<sys:String><![CDATA[+ values(): Book[]]]></sys:String>
+													<sys:String><![CDATA[+ toPrint(): String]]></sys:String>
+													<sys:String><![CDATA[+ toString(): String]]></sys:String>
+													<sys:String><![CDATA[+ valueOf(String): Book]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="538.25,-1103.75,178,236"/>
+								</y:ViewState>
+							</data>
+						</node>
+						<node id="n1::n1::n2">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="283.5" Y="-843.75" Width="180" Height="236"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FFE87C0A" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="Enum Place" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ ROAD:]]></sys:String>
+													<sys:String><![CDATA[+ SCENE:]]></sys:String>
+													<sys:String><![CDATA[+ SINK:]]></sys:String>
+													<sys:String><![CDATA[- description: String]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- Place(String):]]></sys:String>
+													<sys:String><![CDATA[+ values(): Place[]]]></sys:String>
+													<sys:String><![CDATA[+ toPrint(): String]]></sys:String>
+													<sys:String><![CDATA[+ toString(): String]]></sys:String>
+													<sys:String><![CDATA[+ valueOf(String): Place]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="283.5,-843.75,180,236"/>
+								</y:ViewState>
+							</data>
+						</node>
+						<node id="n1::n1::n3">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="781.625" Y="-1103.75" Width="212" Height="252"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FFE87C0A" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="Enum Statement" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ POLICE:]]></sys:String>
+													<sys:String><![CDATA[- description: String]]></sys:String>
+													<sys:String><![CDATA[+ BOOKS:]]></sys:String>
+													<sys:String><![CDATA[+ FOOL:]]></sys:String>
+													<sys:String><![CDATA[+ CRAZY:]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- Statement(String):]]></sys:String>
+													<sys:String><![CDATA[+ valueOf(String): Statement]]></sys:String>
+													<sys:String><![CDATA[+ toPrint(): String]]></sys:String>
+													<sys:String><![CDATA[+ toString(): String]]></sys:String>
+													<sys:String><![CDATA[+ values(): Statement[]]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="781.625,-1103.75,212,252"/>
+								</y:ViewState>
+							</data>
+						</node>
+						<node id="n1::n1::n4">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="538.25" Y="-843.75" Width="218" Height="236"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FFE87C0A" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="Enum Imagination" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ SPORTSMAN:]]></sys:String>
+													<sys:String><![CDATA[- description: String]]></sys:String>
+													<sys:String><![CDATA[+ GREATPERSON:]]></sys:String>
+													<sys:String><![CDATA[+ HERO:]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- Imagination(String):]]></sys:String>
+													<sys:String><![CDATA[+ toPrint(): String]]></sys:String>
+													<sys:String><![CDATA[+ values(): Imagination[]]]></sys:String>
+													<sys:String><![CDATA[+ toString(): String]]></sys:String>
+													<sys:String><![CDATA[+ valueOf(String): Imagination]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="538.25,-843.75,218,236"/>
+								</y:ViewState>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<node id="n1::n2">
+					<data key="d0">4</data>
+					<data key="d4">
+						<x:List>
+							<y:Label>
+								<y:Label.Text>person</y:Label.Text>
+								<y:Label.LayoutParameter>
+									<y:GroupNodeLabelModelParameter PlaceOnTab="false">
+										<y:GroupNodeLabelModelParameter.Model>
+											<y:GroupNodeLabelModel/>
+										</y:GroupNodeLabelModelParameter.Model>
+									</y:GroupNodeLabelModelParameter>
+								</y:Label.LayoutParameter>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" wrapping="CHARACTER_ELLIPSIS" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="#FFEEEEEE"/>
+								</y:Label.Style>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d5">
+						<y:RectD X="-520" Y="-330.5" Width="1275.25" Height="979.75"/>
+					</data>
+					<data key="d7">
+						<yjs:GroupNodeStyle tabWidth="30" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 2}" iconOffset="2" minimumContentAreaSize="0,0" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}" cssClass="y-group-node"/>
+					</data>
+					<graph id="n1::n2:" edgedefault="directed">
+						<node id="n1::n2::n0">
+							<data key="d0">1</data>
+							<data key="d4">
+								<x:List>
+									<y:Label>
+										<y:Label.Text>shorty</y:Label.Text>
+										<y:Label.LayoutParameter>
+											<y:GroupNodeLabelModelParameter PlaceOnTab="false">
+												<y:GroupNodeLabelModelParameter.Model>
+													<y:GroupNodeLabelModel/>
+												</y:GroupNodeLabelModelParameter.Model>
+											</y:GroupNodeLabelModelParameter>
+										</y:Label.LayoutParameter>
+										<y:Label.Style>
+											<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" wrapping="CHARACTER_ELLIPSIS" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="#FFEEEEEE"/>
+										</y:Label.Style>
+									</y:Label>
+								</x:List>
+							</data>
+							<data key="d5">
+								<y:RectD X="-484.5" Y="-269.25" Width="820.25" Height="513.75"/>
+							</data>
+							<data key="d7">
+								<yjs:GroupNodeStyle tabWidth="30" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 2}" iconOffset="2" minimumContentAreaSize="0,0" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}" cssClass="y-group-node"/>
+							</data>
+							<graph id="n1::n2::n0:" edgedefault="directed">
+								<node id="n1::n2::n0::n0">
+									<data key="d0">0</data>
+									<data key="d5">
+										<y:RectD X="-460.875" Y="-220.25" Width="265" Height="396"/>
+									</data>
+									<data key="d7">
+										<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+											<uml:UMLNodeStyle.model>
+												<uml:UMLClassModel stereotype="" constraint="" className="Shorty" attributesOpen="true" operationsOpen="true">
+													<uml:UMLClassModel.attributes>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[- isWashed: boolean]]></sys:String>
+															<sys:String><![CDATA[- placeManager: PlaceManager]]></sys:String>
+															<sys:String><![CDATA[- mood: Mood]]></sys:String>
+															<sys:String><![CDATA[- place: Place]]></sys:String>
+															<sys:String><![CDATA[- moodManager: MoodManager]]></sys:String>
+															<sys:String><![CDATA[- sinkManager: WashManager]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.attributes>
+													<uml:UMLClassModel.operations>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[+ Shorty():]]></sys:String>
+															<sys:String><![CDATA[+ Shorty(String):]]></sys:String>
+															<sys:String><![CDATA[+ Shorty(String, int):]]></sys:String>
+															<sys:String><![CDATA[+ setWashed(boolean): void]]></sys:String>
+															<sys:String><![CDATA[+ getMoodManager(): MoodManager]]></sys:String>
+															<sys:String><![CDATA[+ getPlace(): Place]]></sys:String>
+															<sys:String><![CDATA[+ getSinkManager(): WashManager]]></sys:String>
+															<sys:String><![CDATA[+ getPlaceManager(): PlaceManager]]></sys:String>
+															<sys:String><![CDATA[- createManagers(): void]]></sys:String>
+															<sys:String><![CDATA[+ setPlace(Place): void]]></sys:String>
+															<sys:String><![CDATA[+ getAge(): int]]></sys:String>
+															<sys:String><![CDATA[+ getName(): String]]></sys:String>
+															<sys:String><![CDATA[+ getMood(): Mood]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.operations>
+												</uml:UMLClassModel>
+											</uml:UMLNodeStyle.model>
+										</uml:UMLNodeStyle>
+									</data>
+									<port name="p0">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.5,0"/>
+										</data>
+									</port>
+									<port name="p1">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9974874371859297"/>
+										</data>
+									</port>
+								</node>
+								<node id="n1::n2::n0::n1">
+									<data key="d0">0</data>
+									<data key="d5">
+										<y:RectD X="-141.75" Y="-221.25" Width="219" Height="172"/>
+									</data>
+									<data key="d7">
+										<uml:UMLNodeStyle fill="#FF78AAC1" highlightFill="#FFA3F1BB">
+											<uml:UMLNodeStyle.model>
+												<uml:UMLClassModel stereotype="" constraint="" className="WashManager" attributesOpen="true" operationsOpen="true">
+													<uml:UMLClassModel.attributes>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[~ shorty: Shorty]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.attributes>
+													<uml:UMLClassModel.operations>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[+ WashManager(Shorty):]]></sys:String>
+															<sys:String><![CDATA[+ getDirty(): void]]></sys:String>
+															<sys:String><![CDATA[+ washUp(): void]]></sys:String>
+															<sys:String><![CDATA[- isNearSink(Shorty): boolean]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.operations>
+												</uml:UMLClassModel>
+											</uml:UMLNodeStyle.model>
+										</uml:UMLNodeStyle>
+									</data>
+									<data key="d8">
+										<y:ViewState>
+											<y:FolderNodeState x:Key="c|view" Layout="-141.75,-221.25,219,172"/>
+										</y:ViewState>
+									</data>
+								</node>
+								<node id="n1::n2::n0::n2">
+									<data key="d0">0</data>
+									<data key="d5">
+										<y:RectD X="117.75" Y="-221.25" Width="194" Height="156"/>
+									</data>
+									<data key="d7">
+										<uml:UMLNodeStyle fill="#FF78AAC1" highlightFill="#FFA3F1BB">
+											<uml:UMLNodeStyle.model>
+												<uml:UMLClassModel stereotype="" constraint="" className="MoodManager" attributesOpen="true" operationsOpen="true">
+													<uml:UMLClassModel.attributes>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[~ shorty: Shorty]]></sys:String>
+															<sys:String><![CDATA[~ mood: Mood]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.attributes>
+													<uml:UMLClassModel.operations>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[+ MoodManager(Shorty):]]></sys:String>
+															<sys:String><![CDATA[+ emote(Mood): void]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.operations>
+												</uml:UMLClassModel>
+											</uml:UMLNodeStyle.model>
+										</uml:UMLNodeStyle>
+									</data>
+									<data key="d8">
+										<y:ViewState>
+											<y:FolderNodeState x:Key="c|view" Layout="117.75,-221.25,194,156"/>
+										</y:ViewState>
+									</data>
+								</node>
+								<node id="n1::n2::n0::n3">
+									<data key="d0">0</data>
+									<data key="d5">
+										<y:RectD X="-141.75" Y="-20.375" Width="191" Height="140"/>
+									</data>
+									<data key="d7">
+										<uml:UMLNodeStyle fill="#FF78AAC1" highlightFill="#FFA3F1BB">
+											<uml:UMLNodeStyle.model>
+												<uml:UMLClassModel stereotype="" constraint="" className="PlaceManager" attributesOpen="true" operationsOpen="true">
+													<uml:UMLClassModel.attributes>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[~ shorty: Shorty]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.attributes>
+													<uml:UMLClassModel.operations>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[+ PlaceManager(Shorty):]]></sys:String>
+															<sys:String><![CDATA[+ goTo(Place): void]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.operations>
+												</uml:UMLClassModel>
+											</uml:UMLNodeStyle.model>
+										</uml:UMLNodeStyle>
+									</data>
+									<data key="d8">
+										<y:ViewState>
+											<y:FolderNodeState x:Key="c|view" Layout="-141.75,-20.375,191,140"/>
+										</y:ViewState>
+									</data>
+								</node>
+							</graph>
+						</node>
+						<node id="n1::n2::n1">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="-425.375" Y="296" Width="194" Height="220"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="abstract Person" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[# name: String]]></sys:String>
+													<sys:String><![CDATA[# age: int]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ Person(String, int):]]></sys:String>
+													<sys:String><![CDATA[+ abstract getAge(): int]]></sys:String>
+													<sys:String><![CDATA[+ hashCode(): int]]></sys:String>
+													<sys:String><![CDATA[+ abstract getName(): String]]></sys:String>
+													<sys:String><![CDATA[+ equals(Object): boolean]]></sys:String>
+													<sys:String><![CDATA[+ toString(): String]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<port name="p0">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.5,1"/>
+								</data>
+							</port>
+							<port name="p1">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.5,1"/>
+								</data>
+							</port>
+							<port name="p2">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.5,1"/>
+								</data>
+							</port>
+							<port name="p3">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.5,0.004504504504504514"/>
+								</data>
+							</port>
+							<port name="p4">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.5,0.004504504504504514"/>
+								</data>
+							</port>
+							<port name="p5">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.9948979591836735,0.5"/>
+								</data>
+							</port>
+						</node>
+						<node id="n1::n2::n2">
+							<data key="d0">2</data>
+							<data key="d4">
+								<x:List>
+									<y:Label>
+										<y:Label.Text>someonewithoutshirt</y:Label.Text>
+										<y:Label.LayoutParameter>
+											<y:GroupNodeLabelModelParameter PlaceOnTab="false">
+												<y:GroupNodeLabelModelParameter.Model>
+													<y:GroupNodeLabelModel/>
+												</y:GroupNodeLabelModelParameter.Model>
+											</y:GroupNodeLabelModelParameter>
+										</y:Label.LayoutParameter>
+										<y:Label.Style>
+											<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" wrapping="CHARACTER_ELLIPSIS" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="#FFEEEEEE"/>
+										</y:Label.Style>
+									</y:Label>
+								</x:List>
+							</data>
+							<data key="d5">
+								<y:RectD X="-190.125" Y="296" Width="730.5" Height="321.75"/>
+							</data>
+							<data key="d7">
+								<yjs:GroupNodeStyle tabWidth="30" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 2}" iconOffset="2" minimumContentAreaSize="0,0" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}" cssClass="y-group-node"/>
+							</data>
+							<graph id="n1::n2::n2:" edgedefault="directed">
+								<node id="n1::n2::n2::n0">
+									<data key="d0">0</data>
+									<data key="d5">
+										<y:RectD X="-168.125" Y="344.25" Width="323" Height="252"/>
+									</data>
+									<data key="d7">
+										<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+											<uml:UMLNodeStyle.model>
+												<uml:UMLClassModel stereotype="" constraint="" className="abstract SomeoneWithoutShirt" attributesOpen="true" operationsOpen="true">
+													<uml:UMLClassModel.attributes>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[# name: String]]></sys:String>
+															<sys:String><![CDATA[+ statementManager: StatementManager]]></sys:String>
+															<sys:String><![CDATA[- hatedBook: Book]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.attributes>
+													<uml:UMLClassModel.operations>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[+ SomeoneWithoutShirt(String, int):]]></sys:String>
+															<sys:String><![CDATA[+ getAge(): int]]></sys:String>
+															<sys:String><![CDATA[+ getHatedBook(): Book]]></sys:String>
+															<sys:String><![CDATA[+ setHatedBook(Book): void]]></sys:String>
+															<sys:String><![CDATA[+ getStatementManager(): StatementManager]]></sys:String>
+															<sys:String><![CDATA[+ getSomeoneName(): String]]></sys:String>
+															<sys:String><![CDATA[+ getName(): String]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.operations>
+												</uml:UMLClassModel>
+											</uml:UMLNodeStyle.model>
+										</uml:UMLNodeStyle>
+									</data>
+									<port name="p0">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.5,0"/>
+										</data>
+									</port>
+									<port name="p1">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.003076923076923088,0.5"/>
+										</data>
+									</port>
+								</node>
+								<node id="n1::n2::n2::n1">
+									<data key="d0">0</data>
+									<data key="d5">
+										<y:RectD X="184.75" Y="344.25" Width="343" Height="156"/>
+									</data>
+									<data key="d7">
+										<uml:UMLNodeStyle fill="#FF78AAC1" highlightFill="#FFA3F1BB">
+											<uml:UMLNodeStyle.model>
+												<uml:UMLClassModel stereotype="" constraint="" className="StatementManager" attributesOpen="true" operationsOpen="true">
+													<uml:UMLClassModel.attributes>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[- statementAim: Shorty]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.attributes>
+													<uml:UMLClassModel.operations>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[+ StatementManager():]]></sys:String>
+															<sys:String><![CDATA[+ statementAbout(Shorty, Statement, Book): void]]></sys:String>
+															<sys:String><![CDATA[+ statementAbout(Statement): void]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.operations>
+												</uml:UMLClassModel>
+											</uml:UMLNodeStyle.model>
+										</uml:UMLNodeStyle>
+									</data>
+									<data key="d8">
+										<y:ViewState>
+											<y:FolderNodeState x:Key="c|view" Layout="184.75,344.25,343,156"/>
+										</y:ViewState>
+									</data>
+									<port name="p0">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.5,0"/>
+										</data>
+										<data key="d18">
+											<y:ViewState>
+												<y:Port x:Key="c|view"/>
+											</y:ViewState>
+										</data>
+									</port>
+									<port name="p1">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.5,0.006329113924050611"/>
+										</data>
+										<data key="d18">
+											<y:ViewState>
+												<y:Port x:Key="c|view"/>
+											</y:ViewState>
+										</data>
+									</port>
+								</node>
+							</graph>
+						</node>
+						<node id="n1::n2::n3">
+							<data key="d0">3</data>
+							<data key="d4">
+								<x:List>
+									<y:Label>
+										<y:Label.Text>crazyman</y:Label.Text>
+										<y:Label.LayoutParameter>
+											<y:GroupNodeLabelModelParameter PlaceOnTab="false">
+												<y:GroupNodeLabelModelParameter.Model>
+													<y:GroupNodeLabelModel/>
+												</y:GroupNodeLabelModelParameter.Model>
+											</y:GroupNodeLabelModelParameter>
+										</y:Label.LayoutParameter>
+										<y:Label.Style>
+											<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" wrapping="CHARACTER_ELLIPSIS" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="#FFEEEEEE"/>
+										</y:Label.Style>
+									</y:Label>
+								</x:List>
+							</data>
+							<data key="d5">
+								<y:RectD X="377.75" Y="-269.25" Width="343" Height="513.75"/>
+							</data>
+							<data key="d7">
+								<yjs:GroupNodeStyle tabWidth="30" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 2}" iconOffset="2" minimumContentAreaSize="0,0" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}" cssClass="y-group-node"/>
+							</data>
+							<graph id="n1::n2::n3:" edgedefault="directed">
+								<node id="n1::n2::n3::n0">
+									<data key="d0">0</data>
+									<data key="d5">
+										<y:RectD X="404.875" Y="-217.375" Width="289" Height="172"/>
+									</data>
+									<data key="d7">
+										<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+											<uml:UMLNodeStyle.model>
+												<uml:UMLClassModel stereotype="" constraint="" className="abstract Crazyman" attributesOpen="true" operationsOpen="true">
+													<uml:UMLClassModel.attributes>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[- ideology: Imagination]]></sys:String>
+															<sys:String><![CDATA[- IMAGINE_MANAGER: ImagineManager]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.attributes>
+													<uml:UMLClassModel.operations>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[+ Crazyman(String, int):]]></sys:String>
+															<sys:String><![CDATA[+ getImagineManager(): ImagineManager]]></sys:String>
+															<sys:String><![CDATA[+ setIdeology(Imagination): void]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.operations>
+												</uml:UMLClassModel>
+											</uml:UMLNodeStyle.model>
+										</uml:UMLNodeStyle>
+									</data>
+									<port name="p0">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.5,0"/>
+										</data>
+									</port>
+									<port name="p1">
+										<data key="d16">
+											<y:FreeNodePortLocationModelParameter Ratio="0.0034364261168384758,0.5"/>
+										</data>
+									</port>
+								</node>
+								<node id="n1::n2::n3::n1">
+									<data key="d0">0</data>
+									<data key="d5">
+										<y:RectD X="404.875" Y="-23.5" Width="207" Height="124"/>
+									</data>
+									<data key="d7">
+										<uml:UMLNodeStyle fill="#FF78AAC1" highlightFill="#FFA3F1BB">
+											<uml:UMLNodeStyle.model>
+												<uml:UMLClassModel stereotype="" constraint="" className="ImagineManager" attributesOpen="true" operationsOpen="true">
+													<uml:UMLClassModel.attributes>
+														<x:Array Type="sys:Object"/>
+													</uml:UMLClassModel.attributes>
+													<uml:UMLClassModel.operations>
+														<x:Array Type="sys:Object">
+															<sys:String><![CDATA[+ ImagineManager():]]></sys:String>
+															<sys:String><![CDATA[+ imagine(Imagination): void]]></sys:String>
+														</x:Array>
+													</uml:UMLClassModel.operations>
+												</uml:UMLClassModel>
+											</uml:UMLNodeStyle.model>
+										</uml:UMLNodeStyle>
+									</data>
+									<data key="d8">
+										<y:ViewState>
+											<y:FolderNodeState x:Key="c|view" Layout="404.875,-23.5,207,124"/>
+										</y:ViewState>
+									</data>
+								</node>
+							</graph>
+						</node>
+						<edge id="n1::n2::e0" source="n1::n2::n0::n0" target="n1::n2::n1" sourceport="p1" targetport="p3">
+							<data key="d13">
+								<y:GraphMLReference ResourceKey="6"/>
+							</data>
+						</edge>
+						<edge id="n1::n2::e1" source="n1::n2::n3::n0" target="n1::n2::n1" sourceport="p1" targetport="p4">
+							<data key="d12">
+								<x:List>
+									<y:Bend Location="356.75,-131.375"/>
+									<y:Bend Location="356.75,270.25"/>
+									<y:Bend Location="-328.375,270.25"/>
+								</x:List>
+							</data>
+							<data key="d13">
+								<y:GraphMLReference ResourceKey="6"/>
+							</data>
+						</edge>
+						<edge id="n1::n2::e2" source="n1::n2::n2::n0" target="n1::n2::n1" sourceport="p1" targetport="p5">
+							<data key="d12">
+								<x:List>
+									<y:Bend Location="-205.7336545598772,470.25"/>
+									<y:Bend Location="-205.7336545598772,406"/>
+								</x:List>
+							</data>
+							<data key="d13">
+								<y:GraphMLReference ResourceKey="6"/>
+							</data>
+						</edge>
+					</graph>
+				</node>
+				<node id="n1::n3">
+					<data key="d0">1</data>
+					<data key="d4">
+						<x:List>
+							<y:Label>
+								<y:Label.Text>statementable</y:Label.Text>
+								<y:Label.LayoutParameter>
+									<y:GroupNodeLabelModelParameter PlaceOnTab="false">
+										<y:GroupNodeLabelModelParameter.Model>
+											<y:GroupNodeLabelModel/>
+										</y:GroupNodeLabelModelParameter.Model>
+									</y:GroupNodeLabelModelParameter>
+								</y:Label.LayoutParameter>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" wrapping="CHARACTER_ELLIPSIS" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="#FFEEEEEE"/>
+								</y:Label.Style>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d5">
+						<y:RectD X="255" Y="-541.875" Width="273" Height="142"/>
+					</data>
+					<data key="d7">
+						<yjs:GroupNodeStyle tabWidth="30" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 2}" iconOffset="2" minimumContentAreaSize="0,0" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}" cssClass="y-group-node"/>
+					</data>
+					<graph id="n1::n3:" edgedefault="directed">
+						<node id="n1::n3::n0">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="262" Y="-514.875" Width="255" Height="108"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF4CAF50" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="interface" constraint="" className="Statementable" attributesOpen="false" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object"/>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ statementAbout(Statement): void]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<port name="p0">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.5,1"/>
+								</data>
+							</port>
+							<port name="p1">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.5,1"/>
+								</data>
+							</port>
+							<port name="p2">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.5,0.990909090909091"/>
+								</data>
+							</port>
+							<port name="p3">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.5,0.990909090909091"/>
+								</data>
+							</port>
+						</node>
+					</graph>
+					<port name="p0">
+						<data key="d16">
+							<y:FreeNodePortLocationModelParameter Ratio="0.5,0.00694444444444442"/>
+						</data>
+					</port>
+				</node>
+				<node id="n1::n4">
+					<data key="d0">5</data>
+					<data key="d4">
+						<x:List>
+							<y:Label>
+								<y:Label.Text>sys</y:Label.Text>
+								<y:Label.LayoutParameter>
+									<y:GroupNodeLabelModelParameter PlaceOnTab="false">
+										<y:GroupNodeLabelModelParameter.Model>
+											<y:GroupNodeLabelModel/>
+										</y:GroupNodeLabelModelParameter.Model>
+									</y:GroupNodeLabelModelParameter>
+								</y:Label.LayoutParameter>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" wrapping="CHARACTER_ELLIPSIS" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="#FFEEEEEE"/>
+								</y:Label.Style>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d5">
+						<y:RectD X="574.25" Y="-575.875" Width="431" Height="197.75"/>
+					</data>
+					<data key="d7">
+						<yjs:GroupNodeStyle tabWidth="30" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 2}" iconOffset="2" minimumContentAreaSize="0,0" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}" cssClass="y-group-node"/>
+					</data>
+					<graph id="n1::n4:" edgedefault="directed">
+						<node id="n1::n4::n0">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="587.75" Y="-548.875" Width="149" Height="156"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="Record Time" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- sleepable: int]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ Time():]]></sys:String>
+													<sys:String><![CDATA[+ skipSleep(): void]]></sys:String>
+													<sys:String><![CDATA[+ sleep(long): void]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+						</node>
+						<node id="n1::n4::n1">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="758.75" Y="-532.875" Width="227" Height="124"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FFAD881C" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="SinkIsntNearException" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object"/>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ SinkIsntNearException():]]></sys:String>
+													<sys:String><![CDATA[+ getMessage(): String]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="806.25,-504.5,227,124"/>
+								</y:ViewState>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<node id="n1::n5">
+					<data key="d0">6</data>
+					<data key="d4">
+						<x:List>
+							<y:Label>
+								<y:Label.Text>scene</y:Label.Text>
+								<y:Label.LayoutParameter>
+									<y:GroupNodeLabelModelParameter PlaceOnTab="false">
+										<y:GroupNodeLabelModelParameter.Model>
+											<y:GroupNodeLabelModel/>
+										</y:GroupNodeLabelModelParameter.Model>
+									</y:GroupNodeLabelModelParameter>
+								</y:Label.LayoutParameter>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" wrapping="CHARACTER_ELLIPSIS" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="#FFEEEEEE"/>
+								</y:Label.Style>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d5">
+						<y:RectD X="-524.5" Y="681.5" Width="440" Height="513.875"/>
+					</data>
+					<data key="d7">
+						<yjs:GroupNodeStyle tabWidth="30" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 2}" iconOffset="2" minimumContentAreaSize="0,0" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}" cssClass="y-group-node"/>
+					</data>
+					<graph id="n1::n5:" edgedefault="directed">
+						<node id="n1::n5::n0">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="-517.5" Y="712.375" Width="426" Height="476"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="Scene" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- cast: List<Shorty>]]></sys:String>
+													<sys:String><![CDATA[- statementAimsBook: Book]]></sys:String>
+													<sys:String><![CDATA[- randomEmotions: boolean]]></sys:String>
+													<sys:String><![CDATA[- crazymansIdeology: Imagination]]></sys:String>
+													<sys:String><![CDATA[- slacker: Shorty]]></sys:String>
+													<sys:String><![CDATA[- statementAim: Shorty]]></sys:String>
+													<sys:String><![CDATA[- goToThisPlace: Place]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ Scene(List<Shorty>):]]></sys:String>
+													<sys:String><![CDATA[+ Scene():]]></sys:String>
+													<sys:String><![CDATA[+ Scene(List<Shorty>, boolean, Shorty, Place, Shorty, Book,  ...):]]></sys:String>
+													<sys:String><![CDATA[+ setGoToThisPlace(Place): void]]></sys:String>
+													<sys:String><![CDATA[+ getCrazymansIdeology(): Imagination]]></sys:String>
+													<sys:String><![CDATA[+ setCast(List<Shorty>): void]]></sys:String>
+													<sys:String><![CDATA[+ setRandomEmotions(boolean): void]]></sys:String>
+													<sys:String><![CDATA[+ getRandomEmotions(): boolean]]></sys:String>
+													<sys:String><![CDATA[+ setStatementAimsBook(Book): void]]></sys:String>
+													<sys:String><![CDATA[+ setSlacker(Shorty): void]]></sys:String>
+													<sys:String><![CDATA[+ getSlacker(): Shorty]]></sys:String>
+													<sys:String><![CDATA[+ getCast(): List<Shorty>]]></sys:String>
+													<sys:String><![CDATA[+ setStatementAim(Shorty): void]]></sys:String>
+													<sys:String><![CDATA[+ setCrazymansIdeology(Imagination): void]]></sys:String>
+													<sys:String><![CDATA[+ getGoToThisPlace(): Place]]></sys:String>
+													<sys:String><![CDATA[+ getStatementAim(): Shorty]]></sys:String>
+													<sys:String><![CDATA[+ getStatementAimsBook(): Book]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<node id="n1::n6">
+					<data key="d0">7</data>
+					<data key="d4">
+						<x:List>
+							<y:Label>
+								<y:Label.Text>play</y:Label.Text>
+								<y:Label.LayoutParameter>
+									<y:GroupNodeLabelModelParameter PlaceOnTab="false">
+										<y:GroupNodeLabelModelParameter.Model>
+											<y:GroupNodeLabelModel/>
+										</y:GroupNodeLabelModelParameter.Model>
+									</y:GroupNodeLabelModelParameter>
+								</y:Label.LayoutParameter>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" wrapping="CHARACTER_ELLIPSIS" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="#FFEEEEEE"/>
+								</y:Label.Style>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d5">
+						<y:RectD X="-20.75" Y="681.5" Width="1189.25" Height="506.875"/>
+					</data>
+					<data key="d7">
+						<yjs:GroupNodeStyle tabWidth="30" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 2}" iconOffset="2" minimumContentAreaSize="0,0" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}" cssClass="y-group-node"/>
+					</data>
+					<graph id="n1::n6:" edgedefault="directed">
+						<node id="n1::n6::n0">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="7.25" Y="718.625" Width="323" Height="300"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="Play" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- scene: Scene]]></sys:String>
+													<sys:String><![CDATA[- washManager: WashManager]]></sys:String>
+													<sys:String><![CDATA[- emoteManager: EmoteManager]]></sys:String>
+													<sys:String><![CDATA[- statementManager: StatementManager]]></sys:String>
+													<sys:String><![CDATA[- placeManager: PlaceManager]]></sys:String>
+													<sys:String><![CDATA[- argueManager: ArgueManager]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ Play(Scene):]]></sys:String>
+													<sys:String><![CDATA[+ getArgueManager(): ArgueManager]]></sys:String>
+													<sys:String><![CDATA[+ getStatementManager(): StatementManager]]></sys:String>
+													<sys:String><![CDATA[+ go(): void]]></sys:String>
+													<sys:String><![CDATA[+ getEmoteManager(): EmoteManager]]></sys:String>
+													<sys:String><![CDATA[+ getPlaceManager(): PlaceManager]]></sys:String>
+													<sys:String><![CDATA[+ getWashManager(): WashManager]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+						</node>
+						<node id="n1::n6::n1">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="353" Y="725.75" Width="320" Height="140"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF9DC6D0" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="StatementManager" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- scene: Scene]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ StatementManager(Scene):]]></sys:String>
+													<sys:String><![CDATA[+ statementAbout(Debaters, Statement): void]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="353,725.75,320,140"/>
+								</y:ViewState>
+							</data>
+							<port name="p0">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.003105590062111807,0.5"/>
+								</data>
+								<data key="d18">
+									<y:ViewState>
+										<y:Port x:Key="c|view"/>
+									</y:ViewState>
+								</data>
+							</port>
+							<port name="p1">
+								<data key="d16">
+									<y:FreeNodePortLocationModelParameter Ratio="0.5,0.007042253521126751"/>
+								</data>
+								<data key="d18">
+									<y:ViewState>
+										<y:Port x:Key="c|view"/>
+									</y:ViewState>
+								</data>
+							</port>
+						</node>
+						<node id="n1::n6::n2">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="695.75" Y="725.75" Width="189" Height="140"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF9DC6D0" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="PlaceManager" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- scene: Scene]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ PlaceManager(Scene):]]></sys:String>
+													<sys:String><![CDATA[+ goTo(): void]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="695.75,725.75,189,140"/>
+								</y:ViewState>
+							</data>
+						</node>
+						<node id="n1::n6::n3">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="907.5" Y="725.75" Width="246" Height="140"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF9DC6D0" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="ArgueManager" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- scene: Scene]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ ArgueManager(Scene):]]></sys:String>
+													<sys:String><![CDATA[+ argue(Debaters, Debaters): void]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="907.5,725.75,246,140"/>
+								</y:ViewState>
+							</data>
+						</node>
+						<node id="n1::n6::n4">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="353" Y="885.25" Width="216" Height="172"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF9DC6D0" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="EmoteManager" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- scene: Scene]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ EmoteManager(Scene):]]></sys:String>
+													<sys:String><![CDATA[+ emote(Community): void]]></sys:String>
+													<sys:String><![CDATA[+ emote(Shorty): void]]></sys:String>
+													<sys:String><![CDATA[- randomEmote(Shorty): void]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="353,885.25,216,172"/>
+								</y:ViewState>
+							</data>
+						</node>
+						<node id="n1::n6::n5">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="591.75" Y="885.25" Width="205" Height="124"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF9DC6D0" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="PrintHelperManager" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object"/>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ PrintHelperManager():]]></sys:String>
+													<sys:String><![CDATA[+ nextLine(): void]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="591.75,885.25,205,124"/>
+								</y:ViewState>
+							</data>
+						</node>
+						<node id="n1::n6::n6">
+							<data key="d0">0</data>
+							<data key="d5">
+								<y:RectD X="832.5" Y="885.25" Width="190" Height="140"/>
+							</data>
+							<data key="d7">
+								<uml:UMLNodeStyle fill="#FF9DC6D0" highlightFill="#FFA3F1BB">
+									<uml:UMLNodeStyle.model>
+										<uml:UMLClassModel stereotype="" constraint="" className="WashManager" attributesOpen="true" operationsOpen="true">
+											<uml:UMLClassModel.attributes>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[- scene: Scene]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.attributes>
+											<uml:UMLClassModel.operations>
+												<x:Array Type="sys:Object">
+													<sys:String><![CDATA[+ WashManager(Scene):]]></sys:String>
+													<sys:String><![CDATA[+ washUp(): void]]></sys:String>
+												</x:Array>
+											</uml:UMLClassModel.operations>
+										</uml:UMLClassModel>
+									</uml:UMLNodeStyle.model>
+								</uml:UMLNodeStyle>
+							</data>
+							<data key="d8">
+								<y:ViewState>
+									<y:FolderNodeState x:Key="c|view" Layout="832.5,885.25,190,140"/>
+								</y:ViewState>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<edge id="n1::e0" source="n1::n0::n0::n1" target="n1::n3" sourceport="p2" targetport="p0">
+					<data key="d12">
+						<x:List>
+							<y:Bend Location="0.25,-870"/>
+							<y:Bend Location="235.375,-870"/>
+							<y:Bend Location="235.375,-566.5625"/>
+							<y:Bend Location="391.5,-566.5625"/>
+						</x:List>
+					</data>
+					<data key="d13">
+						<yjs:PolylineEdgeStyle smoothingLength="20" targetArrow="{y:GraphMLReference 7}" sourceArrow="{y:GraphMLReference 8}">
+							<yjs:PolylineEdgeStyle.stroke>
+								<yjs:Stroke fill="#FF1B5E20" lineCap="SQUARE" dashStyle="Dash"/>
+							</yjs:PolylineEdgeStyle.stroke>
+						</yjs:PolylineEdgeStyle>
+					</data>
+				</edge>
+				<edge id="n1::e1" source="n1::n2::n2::n1" target="n1::n3::n0" sourceport="p1" targetport="p2">
+					<data key="d12">
+						<x:List>
+							<y:Bend Location="370.3125,273.2798906518281"/>
+							<y:Bend Location="738.25,273.2798906518281"/>
+							<y:Bend Location="738.25,-365.1875"/>
+							<y:Bend Location="389.5,-365.1875"/>
+						</x:List>
+					</data>
+					<data key="d13">
+						<yjs:PolylineEdgeStyle smoothingLength="20" targetArrow="{y:GraphMLReference 7}" sourceArrow="{y:GraphMLReference 8}">
+							<yjs:PolylineEdgeStyle.stroke>
+								<yjs:Stroke fill="#FF008200" lineCap="SQUARE" dashStyle="Dash"/>
+							</yjs:PolylineEdgeStyle.stroke>
+						</yjs:PolylineEdgeStyle>
+					</data>
+				</edge>
+				<edge id="n1::e2" source="n1::n6::n1" target="n1::n3::n0" sourceport="p1" targetport="p3">
+					<data key="d12">
+						<x:List>
+							<y:Bend Location="513.8330280324924,665.375"/>
+							<y:Bend Location="768.25,665.375"/>
+							<y:Bend Location="768.25,-365.1875"/>
+							<y:Bend Location="389.5,-365.1875"/>
+						</x:List>
+					</data>
+					<data key="d13">
+						<yjs:PolylineEdgeStyle smoothingLength="20" targetArrow="{y:GraphMLReference 7}">
+							<yjs:PolylineEdgeStyle.stroke>
+								<yjs:Stroke fill="#FF1B5E20" lineCap="SQUARE" dashStyle="Dash"/>
+							</yjs:PolylineEdgeStyle.stroke>
+							<yjs:PolylineEdgeStyle.sourceArrow>
+								<yjs:Arrow type="NONE" stroke="#FF1B5E20" fill="#FF1B5E20"/>
+							</yjs:PolylineEdgeStyle.sourceArrow>
+						</yjs:PolylineEdgeStyle>
+					</data>
+				</edge>
+			</graph>
+		</node>
+	</graph>
+</graphml>
