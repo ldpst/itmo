@@ -17,7 +17,7 @@ public class Main {
             cast.add(new Shorty(i));
         }
 
-        boolean randomEmotions = true; // случайные эмоции (вместо "захохотал")
+        boolean randomEmotions = false; // случайные эмоции (вместо "захохотал")
         Shorty slacker = cast.get(0); // персонаж, подходящий к раковине и моющий руки
         Place goToThisPlace = Place.SINK; // место, куда идет slacker
         Shorty statementAim = cast.get(0); // цель утверждений и мнений трех групп коротышех и персоны без рубахи
@@ -39,7 +39,7 @@ public class Main {
 //        scene.setStatementAimsBook(statementAimsBook);
 //        scene.setCrazymansIdeology(crazymansIdeology);
 
-        Time.skipSleep(); // убирает паузы между выводом сообщений
+//        Time.skipSleep(); // убирает паузы между выводом сообщений
 
         Play play = new Play(scene);
         play.go();
