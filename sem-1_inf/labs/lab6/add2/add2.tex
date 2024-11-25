@@ -1,0 +1,278 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{left=2cm,right=2cm,top=1.5cm,bottom=1.5cm}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\usepackage[english,russian]{babel}
+
+\usepackage{fancyhdr} 
+\pagestyle{empty} 
+
+\newcommand{\dts}[0]{\begin{tikzpicture} \fill (0, 0) circle (1pt); \fill (0.2, 0) circle (1pt); \fill (0.1, 0.2) circle (1pt); \end{tikzpicture}}
+
+\begin{document}
+\begin{minipage}{0.4\textwidth}
+\begin{center}
+    \begin{tikzpicture}
+        \draw[black, dashed, ultra thick] (3.3, 2.57) .. controls (3.54, 2.53) .. (3.8, 2.56);
+        \draw[red, ultra thick] (3, 2.74) .. controls (3.15, 2.62) .. (3.3, 2.57);
+
+        \fill[yellow] (2, -1.5) -- (1.5, -1.125) .. controls (1.8, -1) .. (2.15, -1.03) -- cycle; 
+        \fill[black] (2, -1.5) -- (2.15, -1.03) .. controls (2.3, -1.1) .. (2.4, -1.3) -- cycle;
+
+        \fill[blue] (0, 0) -- (0.5, 0.46) .. controls (0.63, 0.36) .. (0.7, 0) -- cycle;
+        \fill[red] (0, 0) -- (0.5, -0.375) .. controls (0.6, -0.25) .. (0.7, 0) -- cycle;
+        
+        \draw[black, ultra thick] (0, 0) -- (5, 0);
+        \node[font=\tiny] at (-0.2, 0) {D};
+        \node[font=\tiny] at (5.2, 0) {B};
+        \draw[blue, dashed, ultra thick] (0, 0) -- (2, -1.5);
+        \draw[black, dashed, ultra thick] (2, -1.5) -- (5, 0);
+        \node[font=\tiny] at (2, -1.7) {C};
+        \draw[red, dashed, ultra thick] (0, 0) -- (3.5, 3.2);
+        \node[font=\tiny] at (3.5, 3.5) {A};
+        \draw[blue, ultra thick] (3.5, 3.2) -- (5, 0);
+        \draw[red, ultra thick] (3.5, 3.2) -- (2, -1.5);
+
+        % \draw[purple, dashed, ultra thick] (3.3, 2.57) -- (0, 0)
+        % \draw[pink, dashed, ultra thick] (2.15, -1.03) -- (0, 0)
+        % \draw[green, dashed, ultra thick] (3.8, 2.56) -- (0, 0)
+        % \draw[brown, dashed, ultra thick] (3, 2.74) -- (5, 0)
+        % \draw[green, dashed, ultra thick] (0.5, 0.46) -- (5, 0)
+        % \draw[yellow, dashed, ultra thick] (0.5, -0.375) -- (5, 0)
+        % \draw[purple,  dashed, ultra thick] (1.5, -1.125) -- (5, 0)
+        % \draw[green, dashed, ultra thick] (2.4, -1.3) -- (3.5, 3.2);
+        
+    \end{tikzpicture}
+    \begin{tikzpicture}
+        \draw[red, ultra thick] (3.5, 3.2) -- (2, -1.5);
+        \draw[yellow, ultra thick] (2, -1.5) -- (5, 0);
+        \draw[blue, ultra thick] (3.5, 3.2) -- (5, 0);
+        \node[font=\tiny] at (3.5, 3.5) {E};
+        \node[font=\tiny] at (5.2, 0) {F};
+        \node[font=\tiny] at (2, -1.7) {G};
+
+        \draw[black, dashed, ultra thick] (3.3, 2.57) .. controls (3.54, 2.53) .. (3.8, 2.56);
+    \end{tikzpicture}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.6\textwidth}
+    \noindent
+    $_48$\hspace{1.5cm}КНИГА I ПРЕДЛ. XXIV. ТЕОРЕМА \\ \vspace{2cm}
+    \begin{minipage}[b]{0.2\linewidth}
+        \includegraphics[width=\linewidth]{imgs/E-latter.png}
+    \end{minipage}
+    \hspace{0.1em}
+    \begin{minipage}{0.8\linewidth}
+        \vspace{2.2cm}
+        \textit{сли у двух треугольников по две стороны соответсвенно равны друг другу (}
+        \begin{tikzpicture}
+            \draw[blue, ultra thick] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {A}
+                node[at end, above, text=black, font=\tiny] {B};
+        \end{tikzpicture}
+         = 
+         \begin{tikzpicture}
+            \draw[blue] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {E}
+                node[at end, above, text=black, font=\tiny] {F};
+        \end{tikzpicture}
+        \textit{и}
+        \begin{tikzpicture}
+            \draw[red, dashed] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {A}
+                node[at end, above, text=black, font=\tiny] {D};
+        \end{tikzpicture}
+        =
+        \begin{tikzpicture}
+            \draw[red] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {G}
+                node[at end, above, text=black, font=\tiny] {E};
+        \end{tikzpicture}
+        \textit{), и угол заключенный ними а одном}
+        \begin{tikzpicture}
+            \draw[red, dashed] (0, -0.1) -- (0.5, 0.5);
+            \node[font=\tiny] at (-0.1, -0.1) {D};
+            \node[font=\tiny] at (0.5, 0.6) {A};
+            \draw[red] (0, -0.1) -- (0.4, -0.2);
+            \draw[red] (0.4, -0.2) -- (0.5, 0.5);
+            \draw[black, dashed, ultra thick] (0.4, -0.2) -- (0.8, -0.15);
+            \draw[blue] (0.8, -0.15) -- (0.5, 0.5);
+            \node[font=\tiny] at (0.8, -0.2) {B};
+        \end{tikzpicture}
+        \textit{больше, чем в другом}
+        \begin{tikzpicture}
+            \draw[red] (0, 0) -- (0.2, 0.5);
+            \draw[blue] (0.2, 0.5) -- (0.37, 0.05);
+            \draw[black, dashed, ultra thick] (0, 0) .. controls (0.25, 0) .. (0.37, 0.05);
+            \node[font=\tiny] at (-0.1, -0.2) {G};
+            \node[font=\tiny] at (0.17, 0.6) {E};
+            \node[font=\tiny] at (0.4, -0.2) {F};
+        \end{tikzpicture}
+        \textit{, то сторона }
+        \begin{tikzpicture}
+            \draw[black, ultra thick] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {D}
+                node[at end, above, text=black, font=\tiny] {B};
+        \end{tikzpicture}
+        \textit{противолежащая большему углу больше стороны, противолежащей меньшему}
+        \begin{tikzpicture}
+            \draw[yellow] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {F}
+                node[at end, above, text=black, font=\tiny] {G};
+        \end{tikzpicture}
+        .\\
+    \end{minipage}
+    \begin{center}
+            Сделаем
+            \begin{tikzpicture}
+                \draw[red, ultra thick] (0, 0) -- (0.2, 0.5);
+                \draw[blue, ultra thick] (0.2, 0.5) -- (0.37, 0.05);
+                \draw[black, dashed, ultra thick] (0, 0) .. controls (0.25, 0) .. (0.37, 0.05);
+                \node[font=\tiny] at (-0.1, -0.2) {C};
+                \node[font=\tiny] at (0.17, 0.6) {A};
+                \node[font=\tiny] at (0.4, -0.2) {B};
+            \end{tikzpicture}
+            =
+            \begin{tikzpicture}
+                \draw[red] (0, 0) -- (0.2, 0.5);
+                \draw[blue] (0.2, 0.5) -- (0.37, 0.05);
+                \draw[black, dashed, ultra thick] (0, 0) .. controls (0.25, 0) .. (0.37, 0.05);
+                \node[font=\tiny] at (-0.1, -0.2) {G};
+                \node[font=\tiny] at (0.17, 0.6) {E};
+                \node[font=\tiny] at (0.4, -0.2) {F};
+        \end{tikzpicture}
+        (пр. I.23),\\
+        и
+        \begin{tikzpicture}
+            \draw[red, ultra thick] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {C}
+                node[at end, above, text=black, font=\tiny] {A};
+        \end{tikzpicture}
+        =
+        \begin{tikzpicture}
+            \draw[red] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {G}
+                node[at end, above, text=black, font=\tiny] {E};
+        \end{tikzpicture}
+        (пр. I.3),\\
+        проведем 
+        \begin{tikzpicture}
+            \draw[blue, dashed, ultra thick] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {C}
+                node[at end, above, text=black, font=\tiny] {D};
+        \end{tikzpicture}
+        и
+        \begin{tikzpicture}
+            \draw[black, dashed, ultra thick] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {B}
+                node[at end, above, text=black, font=\tiny] {C};
+        \end{tikzpicture}
+    \end{center}
+    \begin{center}
+        Поскольку
+        \begin{tikzpicture}
+            \draw[red, ultra thick] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {C}
+                node[at end, above, text=black, font=\tiny] {A};
+        \end{tikzpicture}
+        =
+        \begin{tikzpicture}
+            \draw[red, dashed] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {A}
+                node[at end, above, text=black, font=\tiny] {D};
+        \end{tikzpicture}
+        (акс. I, гип., постр.)\\
+        \dts
+        \begin{tikzpicture}
+            \fill[blue] (0, 0) -- (0.7, 0) .. controls (0.65, 0.35) .. (0.5, 0.5) -- cycle;
+            \fill[red] (0, 0) -- (0.7, 0) .. controls (0.65, -0.35) ..
+            (0.5, -0.5) -- cycle;
+            \node[font=\tiny] at (-0.1, 0) {D};
+            \node[font=\tiny] at (0.6, 0.6) {A};
+            \node[font=\tiny] at (0.6, -0.6) {C};
+        \end{tikzpicture}
+        =
+        \begin{tikzpicture}
+            \fill[yellow] (0, 0) .. controls (0.2, 0.3) and (0.5, 0.4) .. (0.7, 0.3) -- (0.55, -0.3) -- cycle;
+            \node[font=\tiny] at (-0.1, 0) {D};
+            \node[font=\tiny] at (0.6, -0.4) {C};
+            \node[font=\tiny] at (0.8, 0.4) {A};
+        \end{tikzpicture}
+        (пр. I.5), но 
+        \begin{tikzpicture}
+            \fill[red] (0, 0) -- (0.7, 0) .. controls (0.65, -0.23) and (0.6, -0.25) .. (0.5, -0.3) -- cycle;
+            \node[font=\tiny] at (-0.1, 0) {D};
+            \node[font=\tiny] at (0.8, 0) {B};
+            \node[font=\tiny] at (0.6, -0.4) {C};
+        \end{tikzpicture}
+        <
+        \begin{tikzpicture}
+            \fill[yellow] (0, 0) .. controls (0.2, 0.3) and (0.5, 0.4) .. (0.7, 0.3) -- (0.55, -0.3) -- cycle;
+            \node[font=\tiny] at (-0.1, 0) {D};
+            \node[font=\tiny] at (0.6, -0.4) {C};
+            \node[font=\tiny] at (0.8, 0.4) {A};
+        \end{tikzpicture}
+        ,\\
+        и 
+        \dts
+        \begin{tikzpicture}
+            \fill[red] (0, 0) -- (0.7, 0) .. controls (0.65, -0.23) and (0.6, -0.25) .. (0.5, -0.3) -- cycle;
+            \node[font=\tiny] at (-0.1, 0) {D};
+            \node[font=\tiny] at (0.8, 0) {B};
+            \node[font=\tiny] at (0.6, -0.4) {C};
+        \end{tikzpicture}
+        <
+        \begin{tikzpicture}
+            \fill[yellow] (0, 0) .. controls (0.2, 0.3) and (0.5, 0.4) .. (0.7, 0.3) -- (0.55, -0.3) -- cycle;
+            \fill[black] (0.55, -0.3) -- (1, 0) .. controls (0.9, 0.17) and (0.7, 0.28) .. (0.7, 0.3);
+            \node[font=\tiny] at (-0.1, 0) {D};
+            \node[font=\tiny] at (0.6, -0.4) {C};
+            \node[font=\tiny] at (1.1, 0.1) {B};
+        \end{tikzpicture}
+        ,\\
+        \dts
+        \begin{tikzpicture}
+            \draw[black, ultra thick] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {D}
+                node[at end, above, text=black, font=\tiny] {B};
+        \end{tikzpicture}
+        >
+        \begin{tikzpicture}
+            \draw[black, dashed, ultra thick] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {B}
+                node[at end, above, text=black, font=\tiny] {C};
+        \end{tikzpicture}
+        (пр. I.19)\\
+        но 
+        \begin{tikzpicture}
+            \draw[black, dashed, ultra thick] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {B}
+                node[at end, above, text=black, font=\tiny] {C};
+        \end{tikzpicture}
+        =
+        \begin{tikzpicture}
+            \draw[yellow] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {F}
+                node[at end, above, text=black, font=\tiny] {G};
+        \end{tikzpicture}
+        (пр. I.4)\\
+        \dts
+        \begin{tikzpicture}
+            \draw[black, ultra thick] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {D}
+                node[at end, above, text=black, font=\tiny] {B};
+        \end{tikzpicture}
+        >
+        \begin{tikzpicture}
+            \draw[yellow] (0, 0) -- (1, 0)
+                node[at start, above, text=black, font=\tiny] {F}
+                node[at end, above, text=black, font=\tiny] {G};
+        \end{tikzpicture}
+        .
+    \end{center}
+    \raggedleft ч.т.д.
+\end{minipage}
+\end{document}
