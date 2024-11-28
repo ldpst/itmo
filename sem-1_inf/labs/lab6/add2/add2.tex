@@ -1,7 +1,7 @@
 \documentclass[12pt,a4paper]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
-\geometry{left=2cm,right=2cm,top=1.5cm,bottom=1.5cm}
+\geometry{left=0cm,right=2cm,top=1.5cm,bottom=1.5cm}
 \usepackage{graphicx}
 \usepackage{tikz}
 
@@ -15,6 +15,7 @@
 \begin{document}
 \begin{minipage}{0.4\textwidth}
 \begin{center}
+    \vspace{-6cm}
     \begin{tikzpicture}
         \draw[black, dashed, ultra thick] (3.3, 2.57) .. controls (3.54, 2.53) .. (3.8, 2.56);
         \draw[red, ultra thick] (3, 2.74) .. controls (3.15, 2.62) .. (3.3, 2.57);
@@ -92,25 +93,29 @@
                 node[at end, above, text=black, font=\tiny] {E};
         \end{tikzpicture}
         \textit{), и угол заключенный ними а одном}
-        \begin{tikzpicture}
-            \draw[red, dashed] (0, -0.1) -- (0.5, 0.5);
-            \node[font=\tiny] at (-0.1, -0.1) {D};
-            \node[font=\tiny] at (0.5, 0.6) {A};
-            \draw[red] (0, -0.1) -- (0.4, -0.2);
-            \draw[red] (0.4, -0.2) -- (0.5, 0.5);
-            \draw[black, dashed, ultra thick] (0.4, -0.2) -- (0.8, -0.15);
-            \draw[blue] (0.8, -0.15) -- (0.5, 0.5);
-            \node[font=\tiny] at (0.8, -0.2) {B};
-        \end{tikzpicture}
+        \begin{minipage}{1.2cm}
+            \begin{tikzpicture}
+                \draw[red, dashed] (0, -0.1) -- (0.5, 0.5);
+                \node[font=\tiny] at (-0.1, -0.1) {D};
+                \node[font=\tiny] at (0.5, 0.6) {A};
+                \draw[red] (0, -0.1) -- (0.4, -0.2);
+                \draw[red] (0.4, -0.2) -- (0.5, 0.5);
+                \draw[black, dashed, ultra thick] (0.4, -0.2) -- (0.8, -0.15);
+                \draw[blue] (0.8, -0.15) -- (0.5, 0.5);
+                \node[font=\tiny] at (0.8, -0.2) {B};
+            \end{tikzpicture}
+        \end{minipage}
         \textit{больше, чем в другом}
-        \begin{tikzpicture}
-            \draw[red] (0, 0) -- (0.2, 0.5);
-            \draw[blue] (0.2, 0.5) -- (0.37, 0.05);
-            \draw[black, dashed, ultra thick] (0, 0) .. controls (0.25, 0) .. (0.37, 0.05);
-            \node[font=\tiny] at (-0.1, -0.2) {G};
-            \node[font=\tiny] at (0.17, 0.6) {E};
-            \node[font=\tiny] at (0.4, -0.2) {F};
-        \end{tikzpicture}
+        \begin{minipage}{1cm}
+            \begin{tikzpicture}
+                \draw[red] (0, 0) -- (0.2, 0.5);
+                \draw[blue] (0.2, 0.5) -- (0.37, 0.05);
+                \draw[black, dashed, ultra thick] (0, 0) .. controls (0.25, 0) .. (0.37, 0.05);
+                \node[font=\tiny] at (-0.1, -0.2) {G};
+                \node[font=\tiny] at (0.17, 0.6) {E};
+                \node[font=\tiny] at (0.4, -0.2) {F};
+            \end{tikzpicture}
+        \end{minipage}
         \textit{, то сторона }
         \begin{tikzpicture}
             \draw[black, ultra thick] (0, 0) -- (1, 0)
@@ -127,23 +132,27 @@
     \end{minipage}
     \begin{center}
             Сделаем
-            \begin{tikzpicture}
-                \draw[red, ultra thick] (0, 0) -- (0.2, 0.5);
-                \draw[blue, ultra thick] (0.2, 0.5) -- (0.37, 0.05);
-                \draw[black, dashed, ultra thick] (0, 0) .. controls (0.25, 0) .. (0.37, 0.05);
-                \node[font=\tiny] at (-0.1, -0.2) {C};
-                \node[font=\tiny] at (0.17, 0.6) {A};
-                \node[font=\tiny] at (0.4, -0.2) {B};
-            \end{tikzpicture}
+            \begin{minipage}{0.75cm}
+                \begin{tikzpicture}
+                    \draw[red, ultra thick] (0, 0) -- (0.2, 0.5);
+                    \draw[blue, ultra thick] (0.2, 0.5) -- (0.37, 0.05);
+                    \draw[black, dashed, ultra thick] (0, 0) .. controls (0.25, 0) .. (0.37, 0.05);
+                    \node[font=\tiny] at (-0.1, -0.2) {C};
+                    \node[font=\tiny] at (0.17, 0.6) {A};
+                    \node[font=\tiny] at (0.4, -0.2) {B};
+                \end{tikzpicture}
+            \end{minipage}
             =
-            \begin{tikzpicture}
-                \draw[red] (0, 0) -- (0.2, 0.5);
-                \draw[blue] (0.2, 0.5) -- (0.37, 0.05);
-                \draw[black, dashed, ultra thick] (0, 0) .. controls (0.25, 0) .. (0.37, 0.05);
-                \node[font=\tiny] at (-0.1, -0.2) {G};
-                \node[font=\tiny] at (0.17, 0.6) {E};
-                \node[font=\tiny] at (0.4, -0.2) {F};
-        \end{tikzpicture}
+            \begin{minipage}{0.75cm}
+                \begin{tikzpicture}
+                    \draw[red] (0, 0) -- (0.2, 0.5);
+                    \draw[blue] (0.2, 0.5) -- (0.37, 0.05);
+                    \draw[black, dashed, ultra thick] (0, 0) .. controls (0.25, 0) .. (0.37, 0.05);
+                    \node[font=\tiny] at (-0.1, -0.2) {G};
+                    \node[font=\tiny] at (0.17, 0.6) {E};
+                    \node[font=\tiny] at (0.4, -0.2) {F};
+                \end{tikzpicture}
+            \end{minipage}
         (пр. I.23),\\
         и
         \begin{tikzpicture}
@@ -186,52 +195,64 @@
         \end{tikzpicture}
         (акс. I, гип., постр.)\\
         \dts
-        \begin{tikzpicture}
-            \fill[blue] (0, 0) -- (0.7, 0) .. controls (0.65, 0.35) .. (0.5, 0.5) -- cycle;
-            \fill[red] (0, 0) -- (0.7, 0) .. controls (0.65, -0.35) ..
-            (0.5, -0.5) -- cycle;
-            \node[font=\tiny] at (-0.1, 0) {D};
-            \node[font=\tiny] at (0.6, 0.6) {A};
-            \node[font=\tiny] at (0.6, -0.6) {C};
-        \end{tikzpicture}
+        \begin{minipage}{1cm}
+            \begin{tikzpicture}
+                \fill[blue] (0, 0) -- (0.7, 0) .. controls (0.65, 0.35) .. (0.5, 0.5) -- cycle;
+                \fill[red] (0, 0) -- (0.7, 0) .. controls (0.65, -0.35) ..
+                (0.5, -0.5) -- cycle;
+                \node[font=\tiny] at (-0.1, 0) {D};
+                \node[font=\tiny] at (0.6, 0.6) {A};
+                \node[font=\tiny] at (0.6, -0.6) {C};
+            \end{tikzpicture}
+        \end{minipage}
         =
-        \begin{tikzpicture}
-            \fill[yellow] (0, 0) .. controls (0.2, 0.3) and (0.5, 0.4) .. (0.7, 0.3) -- (0.55, -0.3) -- cycle;
-            \node[font=\tiny] at (-0.1, 0) {D};
-            \node[font=\tiny] at (0.6, -0.4) {C};
-            \node[font=\tiny] at (0.8, 0.4) {A};
-        \end{tikzpicture}
+        \begin{minipage}{1cm}
+            \begin{tikzpicture}
+                \fill[yellow] (0, 0) .. controls (0.2, 0.3) and (0.5, 0.4) .. (0.7, 0.3) -- (0.55, -0.3) -- cycle;
+                \node[font=\tiny] at (-0.1, 0) {D};
+                \node[font=\tiny] at (0.6, -0.4) {C};
+                \node[font=\tiny] at (0.8, 0.4) {A};
+            \end{tikzpicture}
+        \end{minipage}
         (пр. I.5), но 
-        \begin{tikzpicture}
-            \fill[red] (0, 0) -- (0.7, 0) .. controls (0.65, -0.23) and (0.6, -0.25) .. (0.5, -0.3) -- cycle;
-            \node[font=\tiny] at (-0.1, 0) {D};
-            \node[font=\tiny] at (0.8, 0) {B};
-            \node[font=\tiny] at (0.6, -0.4) {C};
-        \end{tikzpicture}
+        \begin{minipage}{1.2cm}
+            \begin{tikzpicture}
+                \fill[red] (0, 0) -- (0.7, 0) .. controls (0.65, -0.23) and (0.6, -0.25) .. (0.5, -0.3) -- cycle;
+                \node[font=\tiny] at (-0.1, 0) {D};
+                \node[font=\tiny] at (0.8, 0) {B};
+                \node[font=\tiny] at (0.6, -0.4) {C};
+            \end{tikzpicture}
+        \end{minipage}
         <
-        \begin{tikzpicture}
-            \fill[yellow] (0, 0) .. controls (0.2, 0.3) and (0.5, 0.4) .. (0.7, 0.3) -- (0.55, -0.3) -- cycle;
-            \node[font=\tiny] at (-0.1, 0) {D};
-            \node[font=\tiny] at (0.6, -0.4) {C};
-            \node[font=\tiny] at (0.8, 0.4) {A};
-        \end{tikzpicture}
+        \begin{minipage}{1cm}
+            \begin{tikzpicture}
+                \fill[yellow] (0, 0) .. controls (0.2, 0.3) and (0.5, 0.4) .. (0.7, 0.3) -- (0.55, -0.3) -- cycle;
+                \node[font=\tiny] at (-0.1, 0) {D};
+                \node[font=\tiny] at (0.6, -0.4) {C};
+                \node[font=\tiny] at (0.8, 0.4) {A};
+            \end{tikzpicture}
+        \end{minipage}
         ,\\
         и 
         \dts
-        \begin{tikzpicture}
-            \fill[red] (0, 0) -- (0.7, 0) .. controls (0.65, -0.23) and (0.6, -0.25) .. (0.5, -0.3) -- cycle;
-            \node[font=\tiny] at (-0.1, 0) {D};
-            \node[font=\tiny] at (0.8, 0) {B};
-            \node[font=\tiny] at (0.6, -0.4) {C};
-        \end{tikzpicture}
+        \begin{minipage}{1.2cm}
+            \begin{tikzpicture}
+                \fill[red] (0, 0) -- (0.7, 0) .. controls (0.65, -0.23) and (0.6, -0.25) .. (0.5, -0.3) -- cycle;
+                \node[font=\tiny] at (-0.1, 0) {D};
+                \node[font=\tiny] at (0.8, 0) {B};
+                \node[font=\tiny] at (0.6, -0.4) {C};
+            \end{tikzpicture}
+        \end{minipage}
         <
-        \begin{tikzpicture}
-            \fill[yellow] (0, 0) .. controls (0.2, 0.3) and (0.5, 0.4) .. (0.7, 0.3) -- (0.55, -0.3) -- cycle;
-            \fill[black] (0.55, -0.3) -- (1, 0) .. controls (0.9, 0.17) and (0.7, 0.28) .. (0.7, 0.3);
-            \node[font=\tiny] at (-0.1, 0) {D};
-            \node[font=\tiny] at (0.6, -0.4) {C};
-            \node[font=\tiny] at (1.1, 0.1) {B};
-        \end{tikzpicture}
+        \begin{minipage}{1.5cm}
+            \begin{tikzpicture}
+                \fill[yellow] (0, 0) .. controls (0.2, 0.3) and (0.5, 0.4) .. (0.7, 0.3) -- (0.55, -0.3) -- cycle;
+                \fill[black] (0.55, -0.3) -- (1, 0) .. controls (0.9, 0.17) and (0.7, 0.28) .. (0.7, 0.3);
+                \node[font=\tiny] at (-0.1, 0) {D};
+                \node[font=\tiny] at (0.6, -0.4) {C};
+                \node[font=\tiny] at (1.1, 0.1) {B};
+            \end{tikzpicture}
+        \end{minipage}
         ,\\
         \dts
         \begin{tikzpicture}
